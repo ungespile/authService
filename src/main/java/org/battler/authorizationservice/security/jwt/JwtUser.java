@@ -98,17 +98,8 @@ public class JwtUser implements UserDetails {
         return lastPasswordResetDate;
     }
 
-
-
-
-
-
-
-
-
-
     @Override
     public boolean isEnabled() {
-        return false;
+        return enable;
     }
 }
